@@ -1,0 +1,13 @@
+name: BTEScripTools
+version: '${project.version}'
+main: pizzaaxx.btescriptools.main
+api-version: 1.16
+commands:
+  terraform:
+    description: Select points to create smooth terrain between them.
+    usage: /terrafom <steep> <copy>
+    aliases: tf
+  btescriptools:
+    description: Config command of BTEScripTools
+    usage: /btescriptools <subcommand>
+    aliases: btest
